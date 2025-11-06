@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    background-color: lch(0% 0 0);
+    color: rgb(255, 255, 255);
+}
+
+header{
+    border: 10px solid rgb(0, 110, 255);
+
+    margin: 20px 20px 20px 20px;
+
+    padding: 15px 15px 15px 10px;
+
+    margin-bottom: 40px;
+
+    background: url(7.jpg);
+
+    background-repeat: repeat;
+    
+}
+
+.re{
+    color: rgb(0, 47, 255);
+}
+
+.link1 {
+    color: rgb(0, 0, 255)
+}
+
+.ree {
+    background: url(7.jpg);
+}
