@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    background-color: lch(100% 0.01 296.81);
+    color: black;
 }
 
 header{
@@ -10,4 +12,18 @@ header{
     padding: 15px 15px 15px 10px;
 
     margin-bottom: 40px;
+
+    background: url(7.jpg);
+}
+
+.re{
+    color: rgb(0, 47, 255);
+}
+
+.link1 {
+    color: rgb(0, 0, 255)
+}
+
+.ree {
+    background: url(7.jp);
 }
