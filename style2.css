@@ -1,37 +1,111 @@
-*{
+/* إعداد عام */
+body {
+    font-family: "Cairo", sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #eee;
     margin: 0;
-    background-color: lch(0% 0 0);
-    color: rgb(255, 255, 255);
+    padding: 0;
+    text-align: center;
 }
 
-header{
-    border: 10px solid rgb(0, 110, 255);
-
-    margin: 20px 20px 20px 20px;
-
-    padding: 15px 15px 15px 10px;
-
-    margin-bottom: 40px;
-
-    background: url(7.jpg);
-
-    background-repeat: repeat;
-    
+/* زر الرجوع إلى الثيم الفاتح */
+h2 a {
+    text-decoration: none;
+    color: #00bfff;
+    transition: 0.3s;
 }
 
-.re{
-    color: rgb(0, 47, 255);
+h2 a:hover {
+    color: #1e90ff;
 }
 
-.link1 {
-    color: rgb(0, 0, 255)
-}
-
+/* الجدول */
 .ree {
-    background: url(7.jpg);
+    margin: 40px auto;
+    width: 85%;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
-footer{
-    color: white;
+.ree th, .ree td {
+    padding: 15px;
+    text-align: center;
 }
 
+.ree th {
+    background-color: rgba(0, 191, 255, 0.3);
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.ree tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.ree tr:hover {
+    background-color: rgba(0, 191, 255, 0.15);
+    transition: 0.3s;
+}
+
+/* الروابط */
+.link1 {
+    color: #00bfff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.link1:hover {
+    color: #ffb347;
+}
+
+/* الأقسام */
+section {
+    background-color: rgba(255, 255, 255, 0.08);
+    margin: 40px auto;
+    padding: 30px;
+    width: 90%;
+    max-width: 1000px;
+    border-radius: 16px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.4);
+    backdrop-filter: blur(10px);
+}
+
+/* الصور */
+section img {
+    border-radius: 12px;
+    margin: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+    transition: transform 0.4s;
+}
+
+section img:hover {
+    transform: scale(1.05);
+}
+
+/* العناوين */
+h1, h3, h4 {
+    margin: 15px 0;
+}
+
+.note {
+    color: #ff6b6b;
+}
+
+.bit {
+    color: #1e90ff;
+}
+
+/* الفوتر */
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ccc;
+    padding: 20px;
+    font-size: 1.1rem;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
